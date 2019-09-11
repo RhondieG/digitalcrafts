@@ -1,4 +1,8 @@
+git status #Tells us which files to push
+git add -A #Adds all the files to be saved
+git commit -m "Description of what changes" #Describes how the files were changed
+git push origin master #Saves the files to git``
 GUI - Graphical User Interface
-LAMP - Linux Apache Mysql PHP
+LAMP - Lingux Apache Mysql PHP
 MEAN - MongoDB Express Angular Node
 STACK - All the technology and programming languages that make up a solution
