@@ -6,3 +6,7 @@ GUI - Graphical User Interface
 LAMP - Lingux Apache Mysql PHP
 MEAN - MongoDB Express Angular Node
 STACK - All the technology and programming languages that make up a solution
+git checkout -b [branch_name] #Creates a new branch
+git branch - shows current branch
+git checkout [branch_name]  - Switch between branches
+git pull orgin [branch_name] pulls the lastest changes from git
