@@ -21,6 +21,7 @@
 //4 points - 10 % tip
 //5 points - 15% tip
 
+//1st Part of Question:
 
 function greetMe(waiter){
 	if(waiter == true){
@@ -62,16 +63,17 @@ function getCheck(waiter){
 
 function totalPoints(greetParameter, breadParameter, drinkParameter, goodParameter, getCheckParameter){
 var totalPoints = 0;
-var greetFunction = greetMe(greetParameter);
-var breadFunction = breadWater(breadParameter);
-var drinkFunction = drinkRefills(drinkParameter);
-var goodFunction = goodFood(goodParameter);
-var getCheckFunction = getCheck(getCheckParameter);
+var greetBooleanValue  = greetMe(greetParameter);
+var breadBooleanValue = breadWater(breadParameter);
+var drinkBooleanValue = drinkRefills(drinkParameter);
+var goodBooleanValue = goodFood(goodParameter);
+var getCheckBooleanValue = getCheck(getCheckParameter);
 
-totalPoints = greetFunction + breadFunction + drinkFunction + goodFunction + getCheckFunction;
+totalPoints = greetBooleanValue  + breadBooleanValue + drinkBooleanValue + goodBooleanValue + getCheckBooleanValue;
 	return totalPoints;
 }
 
+// 3rd part of question:
 
 var totalPointServer = totalPoints(true, false, false, true, true);
 console.log(totalPointServer);
