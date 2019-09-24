@@ -1,0 +1,5 @@
+var vendingMachine = {
+    items : [
+                        {snack: "Snickers", price : 1.25},
+                         {snack: "Popcorn", price : 1.00}, 
+                         {snack: "Chewing Gum", price : .2
