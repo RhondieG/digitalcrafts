@@ -11,6 +11,13 @@
                 .uppercase{
                     text-transform: uppercase;
                 }
-
-            	a
+            body{
+                background-color: lightblue;
+                padding: 50px;
+                border: 20px solid black;
+                margin: 100px;
+            }
+            div{
+                margin:0px;
+            }
 </style>
