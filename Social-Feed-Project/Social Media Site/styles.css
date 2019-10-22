@@ -14,3 +14,12 @@ h1
     padding: 20px 0px 30px 0px;
 
 }
+.scrollable {
+    height: 100px;
+    overflow-y: scroll;
+  }
+ #post-container{
+     height: 600px;
+     overflow-y: scroll;
+
+ }
